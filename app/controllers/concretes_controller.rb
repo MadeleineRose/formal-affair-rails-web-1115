@@ -3,6 +3,7 @@ class ConcretesController < ApplicationController
     @concrete = Concrete.new
   end
 
+
   def create
     render nothing: true
   end
